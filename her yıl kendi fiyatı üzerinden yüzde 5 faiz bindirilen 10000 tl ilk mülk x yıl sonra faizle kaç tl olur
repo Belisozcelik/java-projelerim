@@ -1,0 +1,25 @@
+package belisbelisbelis;
+
+import java.util.Scanner;
+
+public class belisbelisbelis {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		System.out.println("Enter number of years:");
+		int nYear;
+		nYear = obj.nextInt();
+		double INITIAL_BALANCE = 10000 ;
+		final double RATE = 0.05;
+		double balance , interest;
+		
+		for(int year =1 ; year <= nYear; year++) {
+			interest = INITIAL_BALANCE*RATE;
+			balance = INITIAL_BALANCE + interest ;
+			System.out.printf("%4d %10.2f\n", year , balance);
+			INITIAL_BALANCE = balance;
+		}
+
+	}
+
+}
