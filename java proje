@@ -1,0 +1,20 @@
+package belisbelisbelis;
+
+public class MyClass {
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			
+	 MyClass myObject = new MyClass("original value");
+	 modifyObject(myObject);
+	  System.out.println("After modification : "+myObject.getValue());
+		}
+		public static void modifyObject(MyClass object) {
+			object.setValue("Modified Value");
+		}
+		
+
+	}
+
+
+}
