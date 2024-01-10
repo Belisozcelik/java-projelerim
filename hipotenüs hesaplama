@@ -1,0 +1,25 @@
+package depdüpp;
+import java.util.Scanner;
+
+public class mainn {
+
+	public static void main(String[] args) {
+		
+	double x;
+	double y;
+	double z;
+	 
+	Scanner obj =  new Scanner(System.in);
+	
+	System.out.println("Enter side x :");
+	x = obj.nextDouble();
+	System.out.println("Enter side y :");
+	y = obj.nextDouble();
+	
+	z =Math.sqrt((x*x) + (y*y));
+	
+	System.out.println("The hypotenus is : " +z);
+	
+	obj.close();
+	}
+}
