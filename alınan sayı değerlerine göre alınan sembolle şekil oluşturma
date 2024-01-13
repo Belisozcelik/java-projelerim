@@ -1,0 +1,33 @@
+package depdüpp;
+
+import java.util.Scanner;
+
+public class mainn {
+	public static void main(String[]args) {
+		
+		Scanner obj = new Scanner(System.in);
+		
+		int rows;
+		int columns;
+		String symbol = "";
+		
+		System.out.println("Enter # of rows ");
+		rows = obj.nextInt();
+		System.out.println("Enter a # of columns");
+		columns = obj.nextInt();
+		System.out.println("Enter a symbol to use ");
+		symbol = obj.next();
+		
+		for( int i = 1; i<=rows; i++) {
+			System.out.println();
+			for( int j = 1; j<=columns; j++) {
+				System.out.print(symbol);
+			}
+		}
+		
+		
+		
+
+	
+	}
+}
