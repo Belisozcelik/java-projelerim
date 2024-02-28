@@ -1,0 +1,69 @@
+
+public class example4
+ {
+ public static String numberToGrade(double x)
+ {
+ if(x>=4.15)
+ {
+ return "A+";
+ }
+ 
+ if(x>=3.85)
+ {
+ return "A";
+ }
+ 
+ if(x>=3.5)
+ {
+ return "A-";
+ }
+ 
+ if(x>=3.15)
+ {
+ return "B+";
+ }
+ 
+ if(x>=2.85)
+ {
+ return "B";
+ }
+ 
+ if(x>=2.5)
+ {
+ return "B-";
+ }
+ 
+ if(x>=2.15)
+ {
+ return "C+";
+ }
+ 
+ if(x>=1.85)
+ {
+ return "C";
+ }
+ 
+ if(x>=1.5)
+ {
+ return "C-";
+ }
+ 
+ if(x>=1.15)
+ {
+ return "D+";
+ }
+ 
+ if(x>=0.85)
+ {
+ return "D";
+ }
+ 
+ if(x>=0.5)
+ {
+ return "D-";
+ }
+ 
+ return "F";
+ }
+ }
+ 
